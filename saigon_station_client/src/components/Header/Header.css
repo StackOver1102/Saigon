@@ -1,0 +1,7 @@
+.background_img_header{
+    /*background-image: url('../../assets/image/background_img_header.png');*/
+    background-image: url('../../assets/image/bg_header.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

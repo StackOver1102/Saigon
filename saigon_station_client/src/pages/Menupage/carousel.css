@@ -1,0 +1,44 @@
+.slick-prev,
+.slick-next {
+    font-size: 0;
+    position: absolute;
+    bottom: 20px;
+    color: #d5122f;
+    border: 0;
+    background: none;
+    z-index: 1;
+    padding: 15px;
+}
+
+.slick-prev:before, .slick-next:before {
+    font-size: 50px !important;
+    color: #09511D !important;
+    padding: 34px 0;
+    display: none;
+
+}
+
+
+.slick-prev {
+    left: -65px !important;
+}
+
+/*.slick-prev:after {*/
+/*    content: "\f104";*/
+/*    font: 40px/1 'FontAwesome';*/
+/*}*/
+
+.slick-next {
+    right: -15px;
+    text-align: right;
+}
+
+/*.slick-next:after {*/
+/*    content: "\f105";*/
+/*    font: 40px/1 'FontAwesome';*/
+/*}*/
+
+.slick-prev:hover:after,
+.slick-next:hover:after {
+    color: #09511D;
+}
